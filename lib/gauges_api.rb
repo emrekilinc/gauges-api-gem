@@ -5,7 +5,6 @@ module Gauges
   class Client
     BASE_URL = "https://secure.gaug.es"
     attr_accessor :token
-    #TOKEN = "b078b3daa71689977fbbf6037fcd71bf"
 
     def initialize token
       raise ArgumentError if token.nil?
