@@ -19,8 +19,8 @@ module Gauges
     end
 
     # Gets gauges list
-    def gauges
-      uri = "#{BASE_URL}/gauges"
+    def gauges page = 1
+      uri = "#{BASE_URL}/gauges?page=#{page}"
       fetch uri
     end
 
