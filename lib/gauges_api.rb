@@ -4,7 +4,14 @@ require 'open-uri'
 module Gauges
   class Client
     BASE_URL = "https://secure.gaug.es"
-    TOKEN = "b078b3daa71689977fbbf6037fcd71bf"
+    attr_accessor :token
+    #TOKEN = "b078b3daa71689977fbbf6037fcd71bf"
+
+    def initialize token
+      raise ArgumentError if token.nil?
+
+      @token = token
+    end
 
     # Gets user information
     def me
@@ -89,7 +96,7 @@ module Gauges
     private 
 
     def fetch uri
-      JSON.parse open(uri, "X-Gauges-Token" => TOKEN).gets
+      JSON.parse open(uri, "X-Gauges-Token" => @token).gets
     end
 
   end
