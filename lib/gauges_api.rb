@@ -33,56 +33,56 @@ module Gauges
     # Gets gauges content
     # optional date and page parameters with default values
     def content id, date = Date.today.to_s, page = 1
-      uri = "#{BASE_URL}/gauges/#{id}/content"
+      uri = "#{BASE_URL}/gauges/#{id}/content?date=#{date}&page=#{page}"
       fetch uri
     end
 
     # Gets gauges referrers 
     # optional date and page parameters with default values
     def referrers id, date = Date.today.to_s, page = 1
-      uri = "#{BASE_URL}/gauges/#{id}/referrers"
+      uri = "#{BASE_URL}/gauges/#{id}/referrers?date=#{date}&page=#{page}"
       fetch uri
     end
 
     # Gets gauges traffic 
     # optional date parameter with default value
     def traffic id, date = Date.today.to_s
-      uri = "#{BASE_URL}/gauges/#{id}/traffic"
+      uri = "#{BASE_URL}/gauges/#{id}/traffic?date=#{date}"
       fetch uri
     end
 
     # Gets gauges resolutions 
     # optional date parameter with default value
     def resolutions id, date = Date.today.to_s
-      uri = "#{BASE_URL}/gauges/#{id}/resolutions"
+      uri = "#{BASE_URL}/gauges/#{id}/resolutions?date=#{date}"
       fetch uri
     end
 
     # Gets gauges technology 
     # optional date parameter with default value
     def technology id, date = Date.today.to_s
-      uri = "#{BASE_URL}/gauges/#{id}/technology"
+      uri = "#{BASE_URL}/gauges/#{id}/technology?date=#{date}"
       fetch uri
     end
 
     # Gets gauges terms 
     # optional date and page parameters with default values
     def terms id, date = Date.today.to_s, page = 1
-      uri = "#{BASE_URL}/gauges/#{id}/terms"
+      uri = "#{BASE_URL}/gauges/#{id}/terms?date=#{date}&page=#{page}}"
       fetch uri
     end
 
     # Gets gauges engines 
     # optional date parameter with default value
     def engines id, date = Date.today.to_s
-      uri = "#{BASE_URL}/gauges/#{id}/engines"
+      uri = "#{BASE_URL}/gauges/#{id}/engines?date=#{date}"
       fetch uri
     end
 
     # Gets gauges locations 
     # optional date parameter with default value
     def locations id, date = Date.today.to_s
-      uri = "#{BASE_URL}/gauges/#{id}/locations"
+      uri = "#{BASE_URL}/gauges/#{id}/locations?date=#{date}"
       fetch uri
     end
 
