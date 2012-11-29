@@ -1,0 +1,22 @@
+{
+
+    "date": "2011-10-13",
+        "page": 1,
+        "per_page": 50,
+        "terms": [
+        {
+            "term": "understanding technology",
+            "views": 275
+        },
+        {
+            "term": "example widgets",
+            "views": 208
+        }
+    ],
+        "urls": {
+            "older": "https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001/terms?date=2011-09-01",
+            "newer": null,
+            "previous_page": null,
+            "next_page": "https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001/terms?date=2011-10-13&page=2"
+        }
+}

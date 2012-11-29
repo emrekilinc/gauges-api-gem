@@ -1,0 +1,13 @@
+{
+    "shares": [{
+        "name": "John Doe",
+            "id": "4e206261e5947c1d38000001",
+            "type": "user",
+            "last_name": "Doe",
+            "email": "john@doe.com",
+            "first_name": "John",
+            "urls": {
+                "remove": "https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001/shares/4e206261e5947c1d38000001"
+            }
+    }]
+}

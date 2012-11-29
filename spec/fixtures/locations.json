@@ -1,0 +1,32 @@
+{
+    "date": "2011-10-13",
+        "locations": [
+        {
+            "regions": [
+            {
+                "title": "California",
+                "views": 3923,
+                "key": "CA"
+            },
+            {
+                "title": "New York",
+                "views": 2204,
+                "key": "NY"
+            }
+            ],
+            "title": "United States",
+            "views": 21651,
+            "key": "US"
+        },
+        {
+            "regions": [],
+            "title": "United Kingdom",
+            "views": 6232,
+            "key": "GB"
+        }
+        ],
+        "urls": {
+            "older": "https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001/locations?date=2011-09-01",
+            "newer": null
+        }
+}

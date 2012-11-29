@@ -1,0 +1,52 @@
+{
+    "gauges": [
+    {
+        "id":"4ea97a8be5947ccda1000001",
+            "title":"acme.com",
+            "tz":"Eastern Time (US & Canada)",
+            "now_in_zone":"2011-08-24T09:11:50-04:00",
+            "enabled":true,
+            "creator_id":"4e206261e5947c1d38000001",
+            "urls": {
+                "self":"https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001",
+                "referrers":"https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001/referrers",
+                "technology":"https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001/technology"
+            },
+            "all_time":{
+                "views":264646,
+                "people":125049
+            },
+            "today":{
+                "date":"2011-08-24",
+                "views":515,
+                "people":338
+            },
+            "yesterday":{
+                "date":"2011-08-23",
+                "views":1493,
+                "people":1011
+            },
+            "recent_hours":[
+            {
+                "hour":"09",
+                "views":16,
+                "people":14
+            }
+            ],
+            "recent_months":[
+            {
+                "date":"2011-08-01",
+                "views":30146,
+                "people":15363
+            }
+            ],
+            "recent_days":[
+            {
+                "date":"2011-08-24",
+                "views":515,
+                "people":338
+            }
+            ]
+    }
+    ]
+}

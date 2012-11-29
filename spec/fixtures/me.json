@@ -1,0 +1,14 @@
+{
+    "user": {
+        "name": "John Doe",
+            "urls": {
+                "self": "https://secure.gaug.es/me",
+                "gauges": "https://secure.gaug.es/gauges",
+                "clients": "https://secure.gaug.es/clients"
+            },
+            "id": "4e206261e5947c1d38000001",
+            "last_name": "Doe",
+            "email": "john@doe.com",
+            "first_name": "John"
+    }
+}

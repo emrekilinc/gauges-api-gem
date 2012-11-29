@@ -1,0 +1,10 @@
+{
+    "clients": [{
+        "created_at": "2011-10-27T15:21:57Z",
+            "urls": {
+                "self": "https://secure.gaug.es/clients/8ee4648f95733342b2f9f9b3ea8b82b3"
+            },
+            "description": "Campfire",
+            "key": "8ee4648f95733342b2f9f9b3ea8b82b3"
+    }]
+}

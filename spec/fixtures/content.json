@@ -1,0 +1,27 @@
+{
+    "date": "2011-10-13",
+        "page": 1,
+        "content": [
+        {
+            "title": "Working in Technology",
+            "views": 1836,
+            "path": "/blog/archive/2011/03/11/working-in-technology",
+            "host": "example.com",
+            "url": "http://example.com/blog/archive/2011/03/11/working-in-technology"
+        },
+        {
+            "title": "Example Widget Company",
+            "views": 934,
+            "path": "/",
+            "host": "example.com",
+            "url": "http://example.com/"
+        }
+        ],
+        "per_page": 50,
+        "urls": {
+            "older": "https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001/content?date=2011-10-12",
+            "newer": null,
+            "previous_page": null,
+            "next_page": "https://secure.gaug.es/gauges/4ea97a8be5947ccda1000001/content?date=2011-10-13&page=2"
+        }
+}
